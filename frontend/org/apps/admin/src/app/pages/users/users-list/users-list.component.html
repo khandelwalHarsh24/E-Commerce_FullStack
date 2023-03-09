@@ -1,0 +1,45 @@
+<p-toast></p-toast>
+<div class="admin-page">
+    <p-card header="Users" subheader="List of all Users">
+        <div class="grid">
+            <div class="col-12">
+                <p-toolbar>
+                    <div class="p-toolbar-group-start">
+                        <p-button styleClass="p-button-success" label="New" icon="pi pi-plus"
+                        routerLink="form"></p-button>
+                    </div>
+                </p-toolbar>
+            </div>
+        </div>
+        <div class="p-grid">
+            <p-table  styleClass="p-datatable-gridlines" [value]="users" [tableStyle]="{'min-width': '50rem'}">
+                <ng-template pTemplate="header">
+                    <tr>
+                        <th pSortableColumn="name">Name <p-sortIcon field="name"></p-sortIcon></th>
+                        <th pSortableColumn="email">Email</th>
+                        <th pSortableColumn="isAdmin">Is Admin</th>
+                        <th pSortableColumn="country">Country</th>
+                        <th></th>
+                    </tr>
+                </ng-template>
+                <ng-template pTemplate="body" let-user>
+                    <tr>
+                        <td>{{user.name}}</td>
+                        <td>{{user.email}}</td>
+                        <td>
+                            <p-tag *ngIf="user.isAdmin" icon="pi pi-check" severity="success" [rounded]="true"></p-tag>
+                            <p-tag *ngIf="!user.isAdmin" icon="pi pi-times" severity="danger" [rounded]="true"></p-tag>
+                        </td>
+                        <td>{{ user.country }}</td>
+                        <td>
+                            <p-button styleClass="p-button-danger mr-2" icon="pi pi-trash" (click)="deleteUser(user.id)" ></p-button>
+                            <p-button styleClass="p-button-success" icon="pi pi-pencil" (click)="updateUser(user.id)"></p-button>
+                        </td>
+                        
+                    </tr>
+                </ng-template>
+            </p-table>
+        </div>
+    </p-card>
+</div>
+<p-confirmDialog [style]="{width: '50vw'}" [baseZIndex]="10000" rejectButtonStyleClass="p-button-text"></p-confirmDialog>

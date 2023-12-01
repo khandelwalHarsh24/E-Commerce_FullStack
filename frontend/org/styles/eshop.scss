@@ -1,0 +1,45 @@
+
+// Order is important
+
+// @import '~normalize.css/normalize.css'; 
+
+// Base
+@import './base/colors.scss';
+@import './base/fonts.scss';
+@import './base/mixin.scss';
+
+
+// Bootstrap
+// @import '~bootstrap/scss/bootstap.scss'
+
+// Primeng Library
+@import '~primeicons/primeicons.css';
+@import '~primeng/resources/themes/lara-light-blue/theme.css';
+@import '~primeng/resources/primeng.min.css';
+@import '~primeflex/primeflex.css'; 
+@import '~animate.css/animate.css';
+
+@import './base/config.scss';
+
+// Shared
+@import './apps/eshop/shared/header.scss';
+@import './apps/eshop/shared/footer.scss';
+@import './apps/eshop/shared/nav.scss';
+
+// Pages
+@import './apps/eshop/pages/home-page.scss';
+@import './apps/eshop/pages/product-list-page.scss';
+
+// libs
+@import './lib/orders/orders.scss';
+@import './lib/users/users.scss';
+@import './lib/products/products.scss';
+@import './lib/ui/ui.scss';
+
+.container{
+    width: 1241px;
+    padding: 15px;
+    // height: 1200px;
+    margin: 0 auto;
+    background-color: var(--surface-100);
+}

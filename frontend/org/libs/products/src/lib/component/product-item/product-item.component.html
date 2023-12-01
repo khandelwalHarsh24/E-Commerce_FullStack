@@ -1,0 +1,10 @@
+<p-toast></p-toast>
+<div class="product-item" *ngIf="resproduct">
+    <div class="product-item-wrapper">
+        <img [src]="resproduct.image" class="image" alt="" [routerLink]="'/products/'+ resproduct.id">
+        <h4 class="name">{{resproduct.name}}</h4>
+        <h5 class="price">{{resproduct.price | currency:"INR":"symbol"}}</h5>
+        <p-button styleClass="mt-3 add-to-cart" label="Add to cart" icon="pi pi-shopping-cart" (onClick)="addToCart()"></p-button>
+        
+    </div>
+</div>

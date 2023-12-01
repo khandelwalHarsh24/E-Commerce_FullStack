@@ -26,7 +26,9 @@
 
 ### User Page
 
-![Dashboard Page](screenshot/eshop/dashboard.png)(screenshot/eshop/dashboard1.png)
+![Dashboard Page](screenshot/eshop/dashboard.png)
+
+![Dashboard Page](screenshot/eshop/dashboard1.png)
 
 ![ProductList Page](screenshot/eshop/products.png);
 

@@ -6,38 +6,38 @@
 
 ### Admin Page
 
-![Login Page](screenshot/admin/login.png)
+![Login Page](Screenshot/admin/login.png)
 
-![Dashboard Page](screenshot/admin/dashboard.png)
+![Dashboard Page](Screenshot/admin/dashboard.png)
 
-![Product Page](screenshot/admin/products.png)
+![Product Page](Screenshot/admin/products.png)
 
-![Edit Page](screenshot/admin/edit.png)
+![Edit Page](Screenshot/admin/edit.png)
 
-![Order Page](screenshot/admin/order.png)
+![Order Page](Screenshot/admin/order.png)
 
-![UserDetail Page](screenshot/admin/users.png)
+![UserDetail Page](Screenshot/admin/users.png)
 
-![Category Page](screenshot/admin/category.png)
+![Category Page](Screenshot/admin/category.png)
 
-![Add Category](screenshot/admin/addMode.png)
+![Add Category](Screenshot/admin/addMode.png)
 
 
 
 ### User Page
 
-![Dashboard Page](screenshot/eshop/dashboard.png)
+![Dashboard Page](Screenshot/eshop/dashboard.png)
 
-![Dashboard Page](screenshot/eshop/dashboard1.png)
+![Dashboard Page](Screenshot/eshop/dashboard1.png)
 
-![ProductList Page](screenshot/eshop/products.png);
+![ProductList Page](Screenshot/eshop/products.png);
 
-![Filter](screenshot/eshop/filter.png)
+![Filter](Screenshot/eshop/filter.png)
 
-![Cart](screenshot/eshop/cart.png)
+![Cart](Screenshot/eshop/cart.png)
 
-![CartItem](screenshot/eshop/cartItem.png)
+![CartItem](Screenshot/eshop/cartItem.png)
 
-![ItemBookForm](screenshot/eshop/cartItem.png)
+![ItemBookForm](Screenshot/eshop/cartItem.png)
 
-![OrderPlace](screenshot/eshop/orderplace.png)
+![OrderPlace](Screenshot/eshop/orderplace.png)

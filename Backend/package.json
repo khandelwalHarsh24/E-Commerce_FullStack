@@ -2,9 +2,9 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start": "app.js",
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -20,5 +20,11 @@
     "morgan": "^1.10.0",
     "multer": "^1.4.5-lts.1",
     "prettier": "^2.8.2"
-  }
+  },
+  "builds": [
+    {
+      "src": "package.json", // as stated here in `vercel.json`
+      "use": "vercel-sapper"
+    }
+  ]
 }
